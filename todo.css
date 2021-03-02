@@ -1,0 +1,41 @@
+*, body{
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.input{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(237, 226, 206);
+    background-color: rgb(218, 240, 238);
+    border: 2px solid rgb(218, 240, 238);
+    margin: 50px 10%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(79, 79, 79, 0.5);
+    padding: 10px;
+}
+.input input{
+    border: 1px solid rgb(237, 226, 206);
+}
+.task{
+    margin-top: 15px;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(237, 226, 206);
+    background-color: rgb(218, 240, 238);
+    border: 2px solid rgb(218, 240, 238);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(79, 79, 79, 0.5);
+    padding: 10px;
+    
+}

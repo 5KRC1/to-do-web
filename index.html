@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="input">
             <h1 class="text">Make a to do!</h1>
-            <input type="text">
-            <input type="submit" value="submit">
+            <div>
+                <input type="text" id="input1">
+                <input type="submit" value="submit" onclick="usrInput()">
+            </div>
+        </div>
+        <div class="tasks">
+
         </div>
     </div>
+    <script src="todo.js"/>
 </body>
 </html>
