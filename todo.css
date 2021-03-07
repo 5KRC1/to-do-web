@@ -2,6 +2,12 @@
     margin: 0;
     font-family: 'Balsamiq Sans', cursive;
 }
+body{
+    background: url(/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg);
+    background-size: cover;
+    width: auto;
+    background-repeat: no-repeat;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -13,16 +19,16 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    color: rgb(237, 226, 206);
-    background-color: rgb(218, 240, 238);
-    border: 2px solid rgb(218, 240, 238);
+    color: white;
+    background-color: rgba(196, 173, 147, 0.7);
     margin: 50px 10%;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(79, 79, 79, 0.5);
     padding: 10px;
 }
 .input input{
-    border: 1px solid rgb(237, 226, 206);
+    border: 0 solid transparent;
+    outline: none;
 }
 .task{
     margin-top: 15px;
@@ -31,11 +37,23 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    color: rgb(237, 226, 206);
-    background-color: rgb(218, 240, 238);
-    border: 2px solid rgb(218, 240, 238);
+    color: white;
+    background-color: rgba(196, 173, 147, 0.7);
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(79, 79, 79, 0.5);
     padding: 10px;
-    
+    align-items: center;
+}
+.check,
+.close{
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+}
+.completed h1{
+    text-decoration: line-through;
+}
+.completed{
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: .3s;
 }
