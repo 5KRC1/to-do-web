@@ -31,7 +31,7 @@ function display(){
             <h1>${array[i]}</h1>
             <div class="buttons">
                 <ion-icon name="checkmark" class="check" onclick="done(${i});"></ion-icon>
-                <ion-icon name="close" class="close"onclick="deleted(${i});"></ion-icon>
+                <ion-icon name="close" class="close" onclick="deleted(${i});"></ion-icon>
             </div>
         </div>
         `
