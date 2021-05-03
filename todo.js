@@ -7,12 +7,10 @@ window.onload = function(){
         display();
     }
 }
-console.log(array);
 function usrInput(){
    
    if(input.value != ""){
        array.push(input.value);
-       console.log(array);
    }
    display();
    input.value = "";
